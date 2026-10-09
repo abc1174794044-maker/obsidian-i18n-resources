@@ -1,0 +1,1096 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hoarder-sync",
+        "version": "1.0.0",
+        "title": "Karakeep Sync",
+        "description": "Karakeep Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add deletion tag",
+                    "target": "Add deletion tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to archive folder",
+                    "target": "Move to archive folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete file",
+                    "target": "Delete file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Add archived tag",
+                    "target": "Add archived tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Do nothing",
+                    "target": "Do nothing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (array, each has:)",
+                    "target": " (array, each has:)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error downloading asset:",
+                    "target": "Error downloading asset:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API request failed:",
+                    "target": "API request failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Asset download failed:",
+                    "target": "Asset download failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading file:",
+                    "target": "Error reading file:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating bookmark in Hoarder:",
+                    "target": "Error updating bookmark in Hoarder:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching highlights in bulk:",
+                    "target": "Error fetching highlights in bulk:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching lists in bulk:",
+                    "target": "Error fetching lists in bulk:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error syncing bookmarks:",
+                    "target": "Error syncing bookmarks:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Error updating frontmatter:",
+                    "target": "[Hoarder] Error updating frontmatter:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Failed to update bookmark in Hoarder",
+                    "target": "[Hoarder] Failed to update bookmark in Hoarder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Hoarder] Error handling file modification:",
+                    "target": "[Hoarder] Error handling file modification:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to Default",
+                    "target": "Reset to Default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Hoarder API key",
+                    "target": "Your Hoarder API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hoarder API endpoint URL (default: https://api.karakeep.app/api/v1)",
+                    "target": "Hoarder API endpoint URL (default: https://api.karakeep.app/api/v1)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where bookmarks will be saved",
+                    "target": "Folder where bookmarks will be saved"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where bookmark images will be saved",
+                    "target": "Folder where bookmark images will be saved"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to sync (in minutes)",
+                    "target": "How often to sync (in minutes)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to sync notes to Karakeep",
+                    "target": "Whether to sync notes to Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to sync highlights from Karakeep into bookmark files",
+                    "target": "Whether to sync highlights from Karakeep into bookmark files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include the Karakeep list(s) each bookmark belongs to as a 'lists' frontmatter field. Nested lists are rendered as slash-separated paths (e.g. 'Reading/Tech').",
+                    "target": "Include the Karakeep list(s) each bookmark belongs to as a 'lists' frontmatter field. Nested lists are rendered as slash-separated paths (e.g. 'Reading/Tech')."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download banner/preview images for bookmarks",
+                    "target": "Download banner/preview images for bookmarks"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download page screenshots",
+                    "target": "Download page screenshots"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download PDF archives of bookmarked pages",
+                    "target": "Download PDF archives of bookmarked pages"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Download full page archives (MHTML/HTML) — can be large",
+                    "target": "Download full page archives (MHTML/HTML) — can be large"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude archived bookmarks from sync",
+                    "target": "Exclude archived bookmarks from sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only sync favorited bookmarks",
+                    "target": "Only sync favorited bookmarks"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only sync bookmarks that have highlights (requires 'Sync highlights' to be enabled)",
+                    "target": "Only sync bookmarks that have highlights (requires 'Sync highlights' to be enabled)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Bookmarks with these tags will not be synced (comma-separated), unless favorited",
+                    "target": "Bookmarks with these tags will not be synced (comma-separated), unless favorited"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Bookmarks with these tags will be synced (comma-separated)",
+                    "target": "Bookmarks with these tags will be synced (comma-separated)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically handle bookmarks that are deleted in Karakeep",
+                    "target": "Automatically handle bookmarks that are deleted in Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do with local files when bookmarks are deleted in Karakeep",
+                    "target": "What to do with local files when bookmarks are deleted in Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to move deleted bookmarks to",
+                    "target": "Folder to move deleted bookmarks to"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tag to add to files when bookmarks are deleted",
+                    "target": "Tag to add to files when bookmarks are deleted"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Separately handle bookmarks that are archived (not deleted) in Karakeep",
+                    "target": "Separately handle bookmarks that are archived (not deleted) in Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do with local files when bookmarks are archived in Karakeep",
+                    "target": "What to do with local files when bookmarks are archived in Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to move archived bookmarks to",
+                    "target": "Folder to move archived bookmarks to"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tag to add to files when bookmarks are archived",
+                    "target": "Tag to add to files when bookmarks are archived"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync bookmarks now",
+                    "target": "Sync bookmarks now"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Configuration",
+                    "target": "API Configuration"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Api key",
+                    "target": "Api key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Api endpoint",
+                    "target": "Api endpoint"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bypass CORS",
+                    "target": "Bypass CORS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File Organization",
+                    "target": "File Organization"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync folder",
+                    "target": "Sync folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Attachments folder",
+                    "target": "Attachments folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync Behavior",
+                    "target": "Sync Behavior"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync interval",
+                    "target": "Sync interval"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update existing files",
+                    "target": "Update existing files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync notes to Karakeep",
+                    "target": "Sync notes to Karakeep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync highlights",
+                    "target": "Sync highlights"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync lists",
+                    "target": "Sync lists"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download assets",
+                    "target": "Download assets"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download banner images",
+                    "target": "Download banner images"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download screenshots",
+                    "target": "Download screenshots"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download PDF archives",
+                    "target": "Download PDF archives"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download full page archives",
+                    "target": "Download full page archives"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync Filtering",
+                    "target": "Sync Filtering"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude archived",
+                    "target": "Exclude archived"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only favorites",
+                    "target": "Only favorites"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only bookmarks with highlights",
+                    "target": "Only bookmarks with highlights"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded tags",
+                    "target": "Excluded tags"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Included tags",
+                    "target": "Included tags"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deletion Handling",
+                    "target": "Deletion Handling"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync deletions",
+                    "target": "Sync deletions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deletion action",
+                    "target": "Deletion action"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive folder",
+                    "target": "Archive folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deletion tag",
+                    "target": "Deletion tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive Handling",
+                    "target": "Archive Handling"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Handle archived bookmarks",
+                    "target": "Handle archived bookmarks"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archived bookmark action",
+                    "target": "Archived bookmark action"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archived bookmark folder",
+                    "target": "Archived bookmark folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archived bookmark tag",
+                    "target": "Archived bookmark tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manual Actions & Status",
+                    "target": "Manual Actions & Status"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manual sync",
+                    "target": "Manual sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "Enter your API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter API endpoint",
+                    "target": "Enter API endpoint"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "Example: folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/attachments",
+                    "target": "Example: folder1/attachments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "private, secret, draft",
+                    "target": "private, secret, draft"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "public, shared",
+                    "target": "public, shared"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Hoarder/deleted",
+                    "target": "Example: Hoarder/deleted"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: Hoarder/archived",
+                    "target": "Example: Hoarder/archived"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Notes synced to Hoarder",
+                    "target": "Notes synced to Hoarder"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to sync notes to Hoarder",
+                    "target": "Failed to sync notes to Hoarder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "hoarder-section-description hoarder-text-error",
+                    "target": "hoarder-section-description hoarder-text-error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A sample description",
+                    "target": "A sample description"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Sync already in progress",
+                    "target": "Sync already in progress"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Hoarder API key not configured",
+                    "target": "Hoarder API key not configured"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Bookmarks",
+                    "target": "Sync Bookmarks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "A sample summary",
+                    "target": "A sample summary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sample highlight",
+                    "target": "Sample highlight"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Connection settings for your Karakeep instance",
+                    "target": "Connection settings for your Karakeep instance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure where your bookmarks and assets are stored",
+                    "target": "Configure where your bookmarks and assets are stored"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Control how synchronization works",
+                    "target": "Control how synchronization works"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bookmark fields",
+                    "target": "Bookmark fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pre-escaped for YAML frontmatter",
+                    "target": "Pre-escaped for YAML frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Assets",
+                    "target": "Assets"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Highlights",
+                    "target": "Highlights"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Helper functions",
+                    "target": "Helper functions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Control which bookmarks are synchronized",
+                    "target": "Control which bookmarks are synchronized"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure what happens when bookmarks are deleted in Karakeep",
+                    "target": "Configure what happens when bookmarks are deleted in Karakeep"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure what happens when bookmarks are archived in Karakeep",
+                    "target": "Configure what happens when bookmarks are archived in Karakeep"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manual sync controls and synchronization status",
+                    "target": "Manual sync controls and synchronization status"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sample Bookmark",
+                    "target": "Sample Bookmark"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`[Hoarder] Replaced misnamed asset: ${existingFile} -> ${filePath}`)",
+                    "target": "log(`[Hoarder] Replaced misnamed asset: ${existingFile} -> ${filePath}`)"
+                },
+                {
+                    "source": "error(\"Asset download failed:\", url, error);\n      throw error;\n    }\n  }\n  getAssetUrl(assetId) {\n    const baseUrl = this.baseUrl.replace(/\\/api\\/v1\\/?$/, \"\")",
+                    "target": "error(\"Asset download failed:\", url, error);\n      throw error;\n    }\n  }\n  getAssetUrl(assetId) {\n    const baseUrl = this.baseUrl.replace(/\\/api\\/v1\\/?$/, \"\")"
+                },
+                {
+                    "source": "setName(\"API Configuration\")",
+                    "target": "setName(\"API Configuration\")"
+                },
+                {
+                    "source": "setName(\"Api key\")",
+                    "target": "setName(\"Api key\")"
+                },
+                {
+                    "source": "setDesc(\"Your Hoarder API key\")",
+                    "target": "setDesc(\"Your Hoarder API key\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter your API key\")",
+                    "target": "setPlaceholder(\"Enter your API key\")"
+                },
+                {
+                    "source": "setName(\"Api endpoint\")",
+                    "target": "setName(\"Api endpoint\")"
+                },
+                {
+                    "source": "setDesc(\"Hoarder API endpoint URL (default: https://api.karakeep.app/api/v1)\")",
+                    "target": "setDesc(\"Hoarder API endpoint URL (default: https://api.karakeep.app/api/v1)\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter API endpoint\")",
+                    "target": "setPlaceholder(\"Enter API endpoint\")"
+                },
+                {
+                    "source": "setName(\"Bypass CORS\")",
+                    "target": "setName(\"Bypass CORS\")"
+                },
+                {
+                    "source": "setName(\"File Organization\")",
+                    "target": "setName(\"File Organization\")"
+                },
+                {
+                    "source": "setName(\"Sync folder\")",
+                    "target": "setName(\"Sync folder\")"
+                },
+                {
+                    "source": "setDesc(\"Folder where bookmarks will be saved\")",
+                    "target": "setDesc(\"Folder where bookmarks will be saved\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: folder1/folder2\")",
+                    "target": "setPlaceholder(\"Example: folder1/folder2\")"
+                },
+                {
+                    "source": "setName(\"Attachments folder\")",
+                    "target": "setName(\"Attachments folder\")"
+                },
+                {
+                    "source": "setDesc(\"Folder where bookmark images will be saved\")",
+                    "target": "setDesc(\"Folder where bookmark images will be saved\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: folder1/attachments\")",
+                    "target": "setPlaceholder(\"Example: folder1/attachments\")"
+                },
+                {
+                    "source": "setName(\"Sync Behavior\")",
+                    "target": "setName(\"Sync Behavior\")"
+                },
+                {
+                    "source": "setName(\"Sync interval\")",
+                    "target": "setName(\"Sync interval\")"
+                },
+                {
+                    "source": "setDesc(\"How often to sync (in minutes)\")",
+                    "target": "setDesc(\"How often to sync (in minutes)\")"
+                },
+                {
+                    "source": "setName(\"Update existing files\")",
+                    "target": "setName(\"Update existing files\")"
+                },
+                {
+                    "source": "setName(\"Sync notes to Karakeep\")",
+                    "target": "setName(\"Sync notes to Karakeep\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to sync notes to Karakeep\")",
+                    "target": "setDesc(\"Whether to sync notes to Karakeep\")"
+                },
+                {
+                    "source": "setName(\"Sync highlights\")",
+                    "target": "setName(\"Sync highlights\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to sync highlights from Karakeep into bookmark files\")",
+                    "target": "setDesc(\"Whether to sync highlights from Karakeep into bookmark files\")"
+                },
+                {
+                    "source": "setName(\"Sync lists\")",
+                    "target": "setName(\"Sync lists\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Include the Karakeep list(s) each bookmark belongs to as a 'lists' frontmatter field. Nested lists are rendered as slash-separated paths (e.g. 'Reading/Tech').\"\n    )",
+                    "target": "setDesc(\n      \"Include the Karakeep list(s) each bookmark belongs to as a 'lists' frontmatter field. Nested lists are rendered as slash-separated paths (e.g. 'Reading/Tech').\"\n    )"
+                },
+                {
+                    "source": "setName(\"Download assets\")",
+                    "target": "setName(\"Download assets\")"
+                },
+                {
+                    "source": "setName(\"Download banner images\")",
+                    "target": "setName(\"Download banner images\")"
+                },
+                {
+                    "source": "setDesc(\"Download banner/preview images for bookmarks\")",
+                    "target": "setDesc(\"Download banner/preview images for bookmarks\")"
+                },
+                {
+                    "source": "setName(\"Download screenshots\")",
+                    "target": "setName(\"Download screenshots\")"
+                },
+                {
+                    "source": "setDesc(\"Download page screenshots\")",
+                    "target": "setDesc(\"Download page screenshots\")"
+                },
+                {
+                    "source": "setName(\"Download PDF archives\")",
+                    "target": "setName(\"Download PDF archives\")"
+                },
+                {
+                    "source": "setDesc(\"Download PDF archives of bookmarked pages\")",
+                    "target": "setDesc(\"Download PDF archives of bookmarked pages\")"
+                },
+                {
+                    "source": "setName(\"Download full page archives\")",
+                    "target": "setName(\"Download full page archives\")"
+                },
+                {
+                    "source": "setDesc(\"Download full page archives (MHTML/HTML) \\u2014 can be large\")",
+                    "target": "setDesc(\"Download full page archives (MHTML/HTML) \\u2014 can be large\")"
+                },
+                {
+                    "source": "appendText(\" \")",
+                    "target": "appendText(\" \")"
+                },
+                {
+                    "source": "appendText(\" (array, each has:)\")",
+                    "target": "appendText(\" (array, each has:)\")"
+                },
+                {
+                    "source": "setButtonText(\"Reset to Default\")",
+                    "target": "setButtonText(\"Reset to Default\")"
+                },
+                {
+                    "source": "setName(\"Sync Filtering\")",
+                    "target": "setName(\"Sync Filtering\")"
+                },
+                {
+                    "source": "setName(\"Exclude archived\")",
+                    "target": "setName(\"Exclude archived\")"
+                },
+                {
+                    "source": "setDesc(\"Exclude archived bookmarks from sync\")",
+                    "target": "setDesc(\"Exclude archived bookmarks from sync\")"
+                },
+                {
+                    "source": "setName(\"Only favorites\")",
+                    "target": "setName(\"Only favorites\")"
+                },
+                {
+                    "source": "setDesc(\"Only sync favorited bookmarks\")",
+                    "target": "setDesc(\"Only sync favorited bookmarks\")"
+                },
+                {
+                    "source": "setName(\"Only bookmarks with highlights\")",
+                    "target": "setName(\"Only bookmarks with highlights\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Only sync bookmarks that have highlights (requires 'Sync highlights' to be enabled)\"\n    )",
+                    "target": "setDesc(\n      \"Only sync bookmarks that have highlights (requires 'Sync highlights' to be enabled)\"\n    )"
+                },
+                {
+                    "source": "setName(\"Excluded tags\")",
+                    "target": "setName(\"Excluded tags\")"
+                },
+                {
+                    "source": "setDesc(\"Bookmarks with these tags will not be synced (comma-separated), unless favorited\")",
+                    "target": "setDesc(\"Bookmarks with these tags will not be synced (comma-separated), unless favorited\")"
+                },
+                {
+                    "source": "setPlaceholder(\"private, secret, draft\")",
+                    "target": "setPlaceholder(\"private, secret, draft\")"
+                },
+                {
+                    "source": "setName(\"Included tags\")",
+                    "target": "setName(\"Included tags\")"
+                },
+                {
+                    "source": "setDesc(\"Bookmarks with these tags will be synced (comma-separated)\")",
+                    "target": "setDesc(\"Bookmarks with these tags will be synced (comma-separated)\")"
+                },
+                {
+                    "source": "setPlaceholder(\"public, shared\")",
+                    "target": "setPlaceholder(\"public, shared\")"
+                },
+                {
+                    "source": "setName(\"Deletion Handling\")",
+                    "target": "setName(\"Deletion Handling\")"
+                },
+                {
+                    "source": "setName(\"Sync deletions\")",
+                    "target": "setName(\"Sync deletions\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically handle bookmarks that are deleted in Karakeep\")",
+                    "target": "setDesc(\"Automatically handle bookmarks that are deleted in Karakeep\")"
+                },
+                {
+                    "source": "setName(\"Deletion action\")",
+                    "target": "setName(\"Deletion action\")"
+                },
+                {
+                    "source": "setDesc(\"What to do with local files when bookmarks are deleted in Karakeep\")",
+                    "target": "setDesc(\"What to do with local files when bookmarks are deleted in Karakeep\")"
+                },
+                {
+                    "source": "setName(\"Archive folder\")",
+                    "target": "setName(\"Archive folder\")"
+                },
+                {
+                    "source": "setDesc(\"Folder to move deleted bookmarks to\")",
+                    "target": "setDesc(\"Folder to move deleted bookmarks to\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: Hoarder/deleted\")",
+                    "target": "setPlaceholder(\"Example: Hoarder/deleted\")"
+                },
+                {
+                    "source": "setName(\"Deletion tag\")",
+                    "target": "setName(\"Deletion tag\")"
+                },
+                {
+                    "source": "setDesc(\"Tag to add to files when bookmarks are deleted\")",
+                    "target": "setDesc(\"Tag to add to files when bookmarks are deleted\")"
+                },
+                {
+                    "source": "setName(\"Archive Handling\")",
+                    "target": "setName(\"Archive Handling\")"
+                },
+                {
+                    "source": "setName(\"Handle archived bookmarks\")",
+                    "target": "setName(\"Handle archived bookmarks\")"
+                },
+                {
+                    "source": "setDesc(\"Separately handle bookmarks that are archived (not deleted) in Karakeep\")",
+                    "target": "setDesc(\"Separately handle bookmarks that are archived (not deleted) in Karakeep\")"
+                },
+                {
+                    "source": "setName(\"Archived bookmark action\")",
+                    "target": "setName(\"Archived bookmark action\")"
+                },
+                {
+                    "source": "setDesc(\"What to do with local files when bookmarks are archived in Karakeep\")",
+                    "target": "setDesc(\"What to do with local files when bookmarks are archived in Karakeep\")"
+                },
+                {
+                    "source": "setName(\"Archived bookmark folder\")",
+                    "target": "setName(\"Archived bookmark folder\")"
+                },
+                {
+                    "source": "setDesc(\"Folder to move archived bookmarks to\")",
+                    "target": "setDesc(\"Folder to move archived bookmarks to\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: Hoarder/archived\")",
+                    "target": "setPlaceholder(\"Example: Hoarder/archived\")"
+                },
+                {
+                    "source": "setName(\"Archived bookmark tag\")",
+                    "target": "setName(\"Archived bookmark tag\")"
+                },
+                {
+                    "source": "setDesc(\"Tag to add to files when bookmarks are archived\")",
+                    "target": "setDesc(\"Tag to add to files when bookmarks are archived\")"
+                },
+                {
+                    "source": "setName(\"Manual Actions & Status\")",
+                    "target": "setName(\"Manual Actions & Status\")"
+                },
+                {
+                    "source": "setName(\"Manual sync\")",
+                    "target": "setName(\"Manual sync\")"
+                },
+                {
+                    "source": "setDesc(\"Sync bookmarks now\")",
+                    "target": "setDesc(\"Sync bookmarks now\")"
+                },
+                {
+                    "source": "error(\"Error reading file:\", error);\n      return { currentNotes: null, originalNotes: null };\n    }\n  }\n  async updateBookmarkInHoarder(bookmarkId, note) {\n    try {\n      if (!this.client) {\n        throw new Error(\"Client not initialized\")",
+                    "target": "error(\"Error reading file:\", error);\n      return { currentNotes: null, originalNotes: null };\n    }\n  }\n  async updateBookmarkInHoarder(bookmarkId, note) {\n    try {\n      if (!this.client) {\n        throw new Error(\"Client not initialized\")"
+                },
+                {
+                    "source": "error(\"[Hoarder] Failed to update bookmark in Hoarder\")",
+                    "target": "error(\"[Hoarder] Failed to update bookmark in Hoarder\")"
+                },
+                {
+                    "source": "error(\"[Hoarder] Error updating frontmatter:\", error);\n              }\n            })();\n          }, 5e3);\n          new import_obsidian4.Notice(\"Notes synced to Hoarder\")",
+                    "target": "error(\"[Hoarder] Error updating frontmatter:\", error);\n              }\n            })();\n          }, 5e3);\n          new import_obsidian4.Notice(\"Notes synced to Hoarder\")"
+                },
+                {
+                    "source": "Notice(\"Failed to sync notes to Hoarder\")",
+                    "target": "Notice(\"Failed to sync notes to Hoarder\")"
+                },
+                {
+                    "source": "error(\"[Hoarder] Error handling file modification:\", error);\n      new import_obsidian4.Notice(\"Failed to sync notes to Hoarder\")",
+                    "target": "error(\"[Hoarder] Error handling file modification:\", error);\n      new import_obsidian4.Notice(\"Failed to sync notes to Hoarder\")"
+                },
+                {
+                    "source": "name = \"Eta Error\"",
+                    "target": "name = \"Eta Error\""
+                },
+                {
+                    "source": "name = \"EtaParser Error\"",
+                    "target": "name = \"EtaParser Error\""
+                },
+                {
+                    "source": "name = \"EtaRuntime Error\"",
+                    "target": "name = \"EtaRuntime Error\""
+                },
+                {
+                    "source": "name = \"EtaFileResolution Error\"",
+                    "target": "name = \"EtaFileResolution Error\""
+                },
+                {
+                    "source": "name = \"EtaNameResolution Error\"",
+                    "target": "name = \"EtaNameResolution Error\""
+                },
+                {
+                    "source": "description: \"A sample description\"",
+                    "target": "description: \"A sample description\""
+                },
+                {
+                    "source": "text: \"Sample highlight\"",
+                    "target": "text: \"Sample highlight\""
+                },
+                {
+                    "source": "link: \"https://example.com\"",
+                    "target": "link: \"https://example.com\""
+                },
+                {
+                    "source": "text: \"Connection settings for your Karakeep instance\"",
+                    "target": "text: \"Connection settings for your Karakeep instance\""
+                },
+                {
+                    "source": "text: \"Configure where your bookmarks and assets are stored\"",
+                    "target": "text: \"Configure where your bookmarks and assets are stored\""
+                },
+                {
+                    "source": "text: \"Control how synchronization works\"",
+                    "target": "text: \"Control how synchronization works\""
+                },
+                {
+                    "source": "text: \"Bookmark fields\"",
+                    "target": "text: \"Bookmark fields\""
+                },
+                {
+                    "source": "text: \"Pre-escaped for YAML frontmatter\"",
+                    "target": "text: \"Pre-escaped for YAML frontmatter\""
+                },
+                {
+                    "source": "text: \"Assets\"",
+                    "target": "text: \"Assets\""
+                },
+                {
+                    "source": "text: \"Highlights\"",
+                    "target": "text: \"Highlights\""
+                },
+                {
+                    "source": "text: \"Helper functions\"",
+                    "target": "text: \"Helper functions\""
+                },
+                {
+                    "source": "text: `Warning: ${warning}`",
+                    "target": "text: `Warning: ${warning}`"
+                },
+                {
+                    "source": "text: `Error: ${result.error}`",
+                    "target": "text: `Error: ${result.error}`"
+                },
+                {
+                    "source": "text: \"Control which bookmarks are synchronized\"",
+                    "target": "text: \"Control which bookmarks are synchronized\""
+                },
+                {
+                    "source": "text: \"Configure what happens when bookmarks are deleted in Karakeep\"",
+                    "target": "text: \"Configure what happens when bookmarks are deleted in Karakeep\""
+                },
+                {
+                    "source": "text: \"Configure what happens when bookmarks are archived in Karakeep\"",
+                    "target": "text: \"Configure what happens when bookmarks are archived in Karakeep\""
+                },
+                {
+                    "source": "text: \"Manual sync controls and synchronization status\"",
+                    "target": "text: \"Manual sync controls and synchronization status\""
+                },
+                {
+                    "source": "text: `Last synced: ${new Date(this.plugin.settings.lastSyncTimestamp).toLocaleString()}`",
+                    "target": "text: `Last synced: ${new Date(this.plugin.settings.lastSyncTimestamp).toLocaleString()}`"
+                },
+                {
+                    "source": "name: \"Sync Bookmarks\"",
+                    "target": "name: \"Sync Bookmarks\""
+                }
+            ]
+        }
+    }
+}
