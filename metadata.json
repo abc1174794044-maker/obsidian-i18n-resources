@@ -1,1 +1,41 @@
-[]
+[
+    {
+        "id": "sUkMT1VUckYZCsAgGOvBZXEBt8FWYoX4",
+        "plugin": "hoarder-sync",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.1.1",
+        "title": "Karakeep Sync",
+        "description": "Karakeep Sync Localization & Tweaks",
+        "hash": "35090147350901473509014735090147",
+        "created_at": "2026-10-09T12:12:19.714Z",
+        "updated_at": "2026-10-09T12:12:19.714Z"
+    },
+    {
+        "id": "HqJ16Fk9NwXa5QNPfy46HhWZCCDWMoRf",
+        "plugin": "hoarder-sync",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.1.1",
+        "title": "Karakeep Sync",
+        "description": "Karakeep Sync Localization & Tweaks",
+        "hash": "35090147350901473509014735090147",
+        "created_at": "2026-10-09T12:12:19.713Z",
+        "updated_at": "2026-10-09T12:12:19.713Z"
+    },
+    {
+        "id": "N9Q0aGe7jffl6JAvz1HHxvxTTImx6pAi",
+        "plugin": "hoarder-sync",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.1",
+        "supported_versions": "2.0.3",
+        "title": "Karakeep Sync",
+        "description": "Karakeep Sync Localization & Tweaks",
+        "hash": "556dd196556dd196556dd196556dd196",
+        "created_at": "2026-10-09T12:12:19.714Z",
+        "updated_at": "2026-10-09T12:12:19.714Z"
+    }
+]
